@@ -9,7 +9,23 @@ import img8  from "@/resources/images/pikachu25.avif"
 import img9  from "@/resources/images/raichu26.avif"
 import img10  from "@/resources/images/sandshrew27.avif"
 import img11  from "@/resources/images/sandslash28.avif"
-
+import img12  from "@/resources/images/caterpie10.png"
+import img13  from "@/resources/images/metapod11.png"
+import img14  from "@/resources/images/butterfree12.png"
+import img15  from "@/resources/images/weedle13.png"
+import img16  from "@/resources/images/kakuna14.png"
+import img17  from "@/resources/images/beedrill15.png"
+import img18  from "@/resources/images/pidgey16.png"
+import img19  from "@/resources/images/pidgeotto17.png"
+import img20  from "@/resources/images/pidgeot18.png"
+import img21  from "@/resources/images/rattata19.png"
+import img22  from "@/resources/images/raticate20.png"
+import img23  from "@/resources/images/spearow21.png"
+import img24  from "@/resources/images/fearow22.png"
+import img25  from "@/resources/images/ekans23.png"
+import img26  from "@/resources/images/arbok24.png"
+import img27  from "@/resources/images/nidoran-f29.png"
+ 
 
 export const data =[
     {
@@ -78,38 +94,103 @@ export const data =[
         name:"sandslash",
         image:img11,
         type:'Ground'
-    }
+    },
+    {
+        id:12,
+        name:"caterpie",
+        image:img12,
+        type:"bug"
+    },
+    {
+        id:13,
+        name:"metapod",
+        image:img13,
+        type:"bug"
+    },
+    {
+        id:14,
+        name:"butterfree",
+        image:img14,
+        type:"Flying bug"
+    },
+    {
+        id:15,
+        name:"weedle",
+        image:img15,
+        type:"bug poison"
+    },
+    {
+        id:16,
+        name:"kakuna",
+        image:img16,
+        type:"bug poison"
+    },
+    {
+        id:17,
+        name:"beedrill",
+        image:img17,
+        type:"bug poison"
+    },
     
-    // ,
-    // {
-    //     id:12,
-    //     name:"",
-    //     img:
-    // },
-    // {
-    //     id:13,
-    //     name:"",
-    //     img:
-    // },
-    // {
-    //     id:14,
-    //     name:"",
-    //     img:
-    // },
-    // {
-    //     id:15,
-    //     name:"",
-    //     img:
-    // },
-    // {
-    //     id:16,
-    //     name:"",
-    //     img:
-    // },
-    // {
-    //     id:17,
-    //     name:"",
-    //     img:
-    // },
+    {
+        id:18,
+        name:"pidgey",
+        image:img18,
+        type:"Normal Flying"
+    },
+    {
+        id:19,
+        name:"pidgeotto",
+        image:img19,
+        type:"Normal Flying"
+    },
+    {
+        id:20,
+        name:"pidgeot",
+        image:img20,
+        type:"Normal Flying"
+    },
+    {
+        id:21,
+        name:"rattata",
+        image:img21,
+        type:"Normal"
+    },
+    {
+        id:22,
+        name:"raticate",
+        image:img22,
+        type:"Normal"
+    },
+    {
+        id:23,
+        name:"spearow",
+        image:img23,
+        type:"Normal Flying"
+    },
+    {
+        id:24,
+        name:"fearow22",
+        image:img24,
+        type:"Normal Flying"
+    },
+    {
+        id:25,
+        name:"ekans",
+        image:img25,
+        type:"Poison"
+    },
+    {
+        id:26,
+        name:"arbok",
+        image:img26,
+        type:"Poison"
+    },
+    {
+        id:27,
+        name:"nidoran-f",
+        image:img27,
+        type:"Poison"
+    },
 
 ]
